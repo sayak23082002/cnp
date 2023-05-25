@@ -1,3 +1,14 @@
+//IP address
+public class IPAddress {
+    public static void main(String[] args) throws UnknownHostException {
+        InetAddress test = InetAddress.getLocalHost();
+        System.out.println("Ip address of the device is: " + test);
+        InetAddress test1 = InetAddress.getByName("sayak.com");
+        System.out.println("Ip address of the website is: " + test1);
+    }    
+}
+
+
 //Date and Time
 //Server Code
 public class Server {
